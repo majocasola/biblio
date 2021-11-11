@@ -1,0 +1,45 @@
+.usuarios {
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../img/usuarios.jpeg");
+    background-size: cover;
+}
+
+.card-header {
+    background-color: #1a2f1c;
+    font-size: 30px;
+    color: white;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.card {
+    background-color: #d3df63;
+}
+
+form {
+    font-size: 30px;
+}
+
+label {
+    font-size: 15px;
+    font-family: 'Libre Baskerville', serif;
+    color: #1a2f1c;
+}
+
+.btn:hover {
+    font-family: 'Libre Baskerville', serif;
+    background-color: #d3df63;
+    transition: .3s ease-in-out;
+}
+
+.form-control {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 12px;
+}
+
+#submit {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 13px;
+}

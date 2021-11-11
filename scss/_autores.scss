@@ -1,0 +1,37 @@
+.autores {
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../img/autores.jpeg");
+    background-size: cover;
+}
+
+table {
+    size: 50px;
+}
+
+thead {
+    background-color: #1a2f1c;
+}
+
+tr {
+    background-color: #d3de64;
+}
+
+th {
+    background-color: #1a2f1c !important;
+    font-size: 15px;
+    color: white;
+    font-family: 'Libre Baskerville', serif;
+}
+
+#editar {
+    font-family: 'Libre Baskerville', serif;
+    font-weight: lighter;
+}
+
+#borrar {
+    font-family: 'Libre Baskerville', serif;
+    font-weight: lighter;
+}

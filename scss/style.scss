@@ -1,0 +1,15 @@
+@import "nav.scss";
+@import "index.scss";
+@import "libros.scss";
+@import "autores.scss";
+@import "usuarios.scss";
+@import "contacto.scss";
+@import "footer.scss";
+html {
+    font-size: 62.5%;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}

@@ -1,0 +1,60 @@
+#libros-cont {
+    min-height: 80vh;
+    display: flex;
+    background-image: url("../img/libros.jpeg");
+    background-size: cover;
+    align-items: center;
+}
+
+#titulo-libros {
+    min-height: 10vh;
+    min-width: cover;
+    padding-bottom: 20px;
+    padding-top: 30px;
+    text-align: center;
+    justify-content: center;
+    margin: 0px;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 30px;
+    background-color: #d3df63;
+    h2 {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-align: center;
+        font-style: normal;
+        font-weight: lighter;
+        font-size: 25px;
+        h3 {
+            color: rgb(17, 15, 36);
+            font-family: 'Amiri', serif;
+        }
+        p {
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: left;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 20px;
+        }
+    }
+}
+
+#libros-cont {
+    color: white;
+}
+
+.btn {
+    color: white;
+    font-style: normal;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: #1a2f1c;
+}
+
+.btn:hover {
+    background-color: #d3df63 !important;
+    transition: .3s ease-in-out;
+}
+
+#book {
+    max-width: 50%;
+}
